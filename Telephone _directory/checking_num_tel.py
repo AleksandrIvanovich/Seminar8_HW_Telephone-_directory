@@ -1,5 +1,4 @@
 
-
 tel_number = list(input('Введите номер телефона в формате +|Код страны|xxx|xxxxxxx|:\n'))
 
 def checking_for_correctness_of_input(arg: str) -> str:
@@ -16,6 +15,3 @@ def checking_for_correctness_of_input(arg: str) -> str:
     else:
         result_str = ''.join(arg) 
     return result_str
- 
-print(checking_for_correctness_of_input(tel_number))
-
